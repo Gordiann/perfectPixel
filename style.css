@@ -1,0 +1,73 @@
+body {
+    background: grey;
+}
+
+.card {
+    width: 143px;
+    background: white;
+    border-radius: 15px;
+    box-sizing: border-box;
+    padding: 7px;
+    margin: 60px auto;
+    position: relative;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+}
+
+.title {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    margin: 0px;
+}
+
+.description {
+    font-weight: 400;
+    font-size: 6px;
+    line-height: 16px;
+    margin: -3px 0px;
+}
+
+.price {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    margin: 4px 0 0 0;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    background: #846046;
+    position: absolute;
+    left: 106px;
+    top: 125px;
+}
+
+.icon::before {
+    width: 12px;
+    height: 2px;
+    content: '';
+    background: #F8F7FA;
+    position: absolute;
+    left: 9px;
+    top: 14px;
+    border-radius: 1px;
+    transform: rotate(90deg);
+}
+
+.icon::after {
+    width: 12.22px;
+    height: 2px;
+    content: '';
+    background: #F8F7FA;
+    position: absolute;
+    left: 9px;
+    top: 14px;
+    border-radius: 1px;
+}
+
